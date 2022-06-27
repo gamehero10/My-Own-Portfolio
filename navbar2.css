@@ -1,0 +1,58 @@
+/*Settings for the navigation bar*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color: darkgrey;
+}
+
+/*Settings for the labels in the navigation bar*/
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+/*Adding extra padding and displaying the labels within the navigation bar*/
+li {
+    display: inline-block;
+    padding: 15px 45px;
+}
+
+/*Aligning the labels, making them the color black, and giving them a specific name and font size*/
+a {
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+}
+
+/* The label will turn blue if hovered over by the cursor*/
+a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+#myself_hz {
+    overflow: hidden;
+}
+
+/*Sets the top of the image to 0 pixels and the right side of the image to 15 pixels*/
+#myself_hz img {
+    position: relative;
+    display: inline;
+    margin: 0 15px;
+}
+
+/*Desingned as a one-dimensional layout model*/
+.images-container {
+    display: flex;
+}
+
+/*Settings for the image*/
+.images-container img {
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 100px;
+    left: 15px;
+}
